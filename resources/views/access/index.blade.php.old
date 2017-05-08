@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://www.wegodev.com/access.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>wegodev | programmer school</title>
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"> -->
+		<meta name="viewport" content="width=device-width, height=device-height">
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+		<meta name="keywords" content="sekolah programmer, wegodev, belajar programming, web programming, programming, kursus programming, kursus php, kursus bikin web, bikin aplikasi, HTML,CSS,php,jquery,html5,JavaScript">
+		<meta name="description" content="sekolah programmer dengan kurikulum terbaik untuk menjamin siswa menjadi programmer dalam 2 minggu">
+		<meta property="og:url" content="https://www.wegodev.com">
+		<meta property="og:image" content="https://www.wegodev.com/asset/images/facebook-cover.jpg">
+		<meta property="fb:app_id" content="875467282503622">
+		<meta property="og:title" content="wegodev | sekolah programmer">
+		<meta property="og:description" content="sekolah programmer dengan kurikulum terbaik untuk menjamin siswa menjadi programmer dalam 2 minggu">
+		
+		<link rel="icon" type="image/png" href="https://www.wegodev.com/asset/images/favicon.png">	
+		<script>var domain = { base_url : 'https://www.wegodev.com/', live : 'http://wegodev.com/' };</script>	
+		<link href="{{ URL::asset('assets/bootstrap.min.css') }}" rel="stylesheet">		
+		<link href="{{ URL::asset('assets/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+		<link href="{{ URL::asset('assets/css') }}" rel="stylesheet">
+		<link href="{{ URL::asset('assets/simpleAjax.1.0.min.css') }}" rel="stylesheet" type="text/css">
+	    <link href="{{ URL::asset('assets/reset.min.css') }}" rel="stylesheet" type="text/css">
+	    <link href="{{ URL::asset('assets/notif_style.min.css') }}" rel="stylesheet" type="text/css">
+		<link href="{{ URL::asset('assets/style.min.css') }}" rel="stylesheet" type="text/css">
+		<script src="{{ URL::asset('assets/jquery-1.11.2.min.js') }}"></script>
+		<script src="{{ URL::asset('assets/velocity.min.js') }}"></script>
+		<script src="{{ URL::asset('assets/velocity.ui.min.js') }}"></script>		
+		<script src="{{ URL::asset('assets/jsFunction.min.js') }}"></script>
+		<script src="{{ URL::asset('assets/simpleAjax.1.0.min.js') }}"></script>
+		<script>
+		!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+		n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+		document,'script','https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1536642469968946');
+		fbq('track', 'PageView');
+		</script>
+		<noscript></noscript></head><body lang="id"><img height="1" width="1" style="display:none" src="{{ URL::asset('assets/tr') }}">
+	
+		
+		<div class="message-notif set-mode-notif">
+			<div class="close-message-notif">x</div>
+			<h3><i class="fa set-fa-notif"></i> <label class="set-content-notif"></label></h3>
+		</div>		
+		<div id="fb-root"></div>
+		          
+<link href="{{ URL::asset('assets/login.min.css') }}" rel="stylesheet" type="text/css">
+<div class="frame-tab form frame-tab-shadow">
+      
+  <ul class="tab-group">
+    <li class="tab"><a href="https://www.wegodev.com/access.html#register" id="btn-register">REGISTER</a></li>
+    <li class="tab default-active"><a href="https://www.wegodev.com/access.html#login">LOGIN</a></li>
+  </ul>
+      
+  <div class="tab-content">        
+
+    <div id="login">   
+      <!-- <h1>Welcome Back</h1> -->
+
+      <div class="social-wrap">
+          <a id="facebook" href="https://www.facebook.com/v2.2/dialog/oauth?client_id=875467282503622&amp;state=abdd6f24d61db491a8d892094a00f3ee&amp;response_type=code&amp;sdk=php-sdk-5.4.4&amp;redirect_uri=https%3A%2F%2Fwww.wegodev.com%2Ffb-callback.php&amp;scope=email">Sign in with Facebook</a>
+      </div>
+
+      <div class="text-divider">
+          <h3>OR</h3>
+      </div>      
+
+      <form ajax-callback="user_login" ajax-loader="circle" method="POST" action="https://www.wegodev.com/api.php?f=user_login">              
+
+        <div class="field-wrap">
+          <label>
+            Email Address<span class="req">*</span>
+          </label>
+          <input name="email" type="input" required="" autocomplete="off">
+        </div>
+
+        <div class="field-wrap">
+          <label>
+            Password<span class="req">*</span>
+          </label>
+          <input name="password" type="password" required="" autocomplete="off">
+        </div>
+
+        <button type="submit" name="signin" class="button button-block">LOGIN</button>    
+
+        <p class="forgot"><a href="https://www.wegodev.com/forgot.html">Forgot Password?</a></p>
+    
+      </form>
+    </div>
+
+    <div id="register">   
+      <!-- <h1>REGISTER</h1> -->
+      <div class="social-wrap">
+          <a id="facebook" href="https://www.facebook.com/v2.2/dialog/oauth?client_id=875467282503622&amp;state=abdd6f24d61db491a8d892094a00f3ee&amp;response_type=code&amp;sdk=php-sdk-5.4.4&amp;redirect_uri=https%3A%2F%2Fwww.wegodev.com%2Ffb-callback.php&amp;scope=email">Sign up with Facebook</a>
+      </div>
+
+      <div class="text-divider">
+          <h3>OR</h3>
+      </div>      
+
+      <form ajax-callback="user_register" ajax-loader="circle" method="POST" action="https://www.wegodev.com/api.php?f=user_register">              
+
+        <div class="field-wrap">
+          <label>
+          Nama Lengkap<span class="req">*</span>
+          </label>
+          <input type="input" name="nama_lengkap" required="" autocomplete="off">
+        </div>
+
+        <div class="field-wrap">
+          <label>
+          Email Address<span class="req">*</span>
+          </label>
+          <input type="input" name="email" required="" autocomplete="off">
+        </div>
+
+        <div class="field-wrap">
+          <select name="jenis_kelamin" class="selectbox">
+            <option value="0">Gender</option>
+            <option value="P">Pria</option>
+            <option value="W">Wanita</option>
+          </select>
+        </div>
+
+        <div class="field-wrap">
+          <label>
+          Password<span class="req">*</span>
+          </label>
+          <input type="password" name="password" required="" autocomplete="off">
+        </div>
+
+        <div class="field-wrap">
+          <label>
+          Re-type Password<span class="req">*</span>
+          </label>
+          <input type="password" name="repassword" required="" autocomplete="off">
+        </div>
+        
+        <div class="field-wrap" style="overflow:hidden;margin-top: -10px;">
+          <div style="color: #616161;font-size: 12px;margin-left: 5px; letter-spacing: 1px;">Tanggal Lahir</div>
+          <select class="selectbox" style="float:left;;width:25%;" name="date"><option value="-">Tanggal</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option></select>
+          <select class="selectbox" style="float:left;width:50%;" name="month"><option value="-">Bulan</option><option value="01">Januari</option><option value="02">Februari</option><option value="03">Maret</option><option value="04">April</option><option value="05">Mei</option><option value="06">Juni</option><option value="07">Juli</option><option value="08">Agustus</option><option value="09">September</option><option value="10">Oktober</option><option value="11">November</option><option value="12">Desember</option></select>
+          <select class="selectbox" style="float:left;width:25%;" name="year"><option value="-">Tahun</option><option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1977">1977</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option></select>
+        </div>
+
+        <button type="submit" name="signup" class="button button-block">REGISTER</button>
+
+      </form>
+    </div>
+
+
+  </div><!-- tab-content -->
+
+  <a href="https://www.wegodev.com/" class="access-logo"><img src="{{ URL::asset('assets/logo.png') }}"></a>
+</div> <!-- /form -->
+<script type="text/javascript">$(document).ready(function(){ $("body").css({"background": "#ececec" }); });</script>
+<div class="modal fade" data-easein="expandIn" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				 	 <div class="modal-dialog custom-dialog" role="document">
+				   		 <div class="modal-content">
+								
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+									<h4 class="modal-title" id="myModalLabel">...</h4>
+								</div>
+								
+								<div class="modal-body">...</div>
+						</div>
+				  	</div>
+				</div>	
+	<script src="{{ URL::asset('assets/bootstrap.min.js') }}"></script>
+
+		<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-77918864-1', 'auto');
+	  ga('send', 'pageview');
+
+	(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=875467282503622";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script></body></html>
